@@ -127,6 +127,11 @@ ul {
   z-index: 1000;
   background-color: #f4f3ee;
 }
+@media screen and (max-width: 767px) {
+   .header {
+     position: relative;
+  }
+}
 .header .logo {
   width: 280px;
   padding: 15px 0 15px 15px;
@@ -233,7 +238,7 @@ ul {
   .header .logo {
     width: 500px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .header a {
     margin-right: 10px;
