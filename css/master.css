@@ -790,6 +790,9 @@ ul {
   top: -25px;
 }
 @media screen and (max-width: 780px) {
+    .app .container {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
   .social_section .container .social {
     gap: 10px;
   }
