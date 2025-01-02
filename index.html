@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+
+</head>
+
+<body>
+
+    <div class="landing-page" id="home">
+        <div class="header box-sh">
+            <div class="logo"> <i class="fa-solid fa-book-open"></i> Books For You </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="navbar">
+                <li><a href="#home">home</a></li>
+                <li><a href="#featured">featured</a></li>
+                <li><a href="#offer">Books offer</a></li>
+                <li><a href="#all_books">All Books</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#reviews">reviews</a></li>
+                <li><a href="#feedback">feedback</a></li>
+            </ul>
+            <div class="icons flex-c">
+                <a href="#app"><i class="fa-solid fa-download"></i></a>
+                <a ><i class="fa-solid fa-cart-arrow-down"></i></a>
+                <a ><i class="fa-solid fa-user-tie"></i></a>
+            </div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box"><a id="ss"><i class="fa-solid fa-magnifying-glass"></i></a></label>
+        </form>
+        <div class="content">
+
+            <div class="intro-text flex-c">
+                <h1>new book <span>just</span> released</h1>
+                <p>Here there are great deals on a wide range of books. <br> Shop for these books from top authors and
+                    avail hugely discounted prices</p>
+                <a href="#" id="shop">Shop</a>
+            </div>
+            <div class="menu_book flex-c">
+                <div class="stand_image box-sh ">
+                    <div class="back_image flex-c"> <img src="imgs/1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured_books for_title" id="featured">
+        <h1 class="main-title">featured Books</h1>
+        <div class="container">
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-7.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price">$ 45.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"><img src="imgs/book-2.png" alt=""></div>
+
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price">$ 25.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-9.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price">$ 30.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-10.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price">$ 40.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#all_books">View all products <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <div class="newsletter-form for_title" id="subscribe">
+        <h1 class="main-title">Subscribe</h1>
+        <div class="container">
+            <div class="forming ">
+                <h2 class="heading"> Subscribe to Our Newsletter</h2>
+                <h3 class="heading" style="text-align: center;"> Get fresh void to your inbox every week.</h3>
+                <form class="form">
+                    <label for="email">Email:</label>
+                    <input required="" placeholder="Enter your email address" name="email" id="email" type="email">
+                    <button class="Btn"></button>
+                    <button class="Bttn">
+                        <svg viewBox="0 0 576 512" height="1em" class="logoIcon">
+                            <path
+                                d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z">
+                            </path>
+                        </svg>
+                        GO PREMIUM
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="offer for_title" id="offer">
+        <h1 class="main-title">Books with offer</h1>
+        <div class="container">
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-1.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price"><span>$45.00</span> $37.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"><img src="imgs/book-3.png" alt=""></div>
+
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price"><span>$25.00</span> $18.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-4.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price"><span>$32.00</span> $26.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_img"> <img src="imgs/book-5.png" alt=""></div>
+                <h3>featured Books</h3>
+                <p class="author">bla bla</p>
+                <p class="price"><span>$40.00</span> $29.00</p>
+                <div class="link-card">
+                    <a href="" class="addToCard">Add To Card</a>
+                    <button><i class="fa-solid fa-circle-info"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#all_books">View all products <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <div class="all_books for_title" id="all_books">
+        <h1 class="main-title">All Books</h1>
+        <div class="container">
+            <a class="arrow left">&#8592;</a>
+            <div class="books-con">
+                <div class="books-row">
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-1.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 40.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-2.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 45.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-3.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 30.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-4.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 25.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-5.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 55.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-6.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 35.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-7.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 20.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-8.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 40.50</p>
+                    <div class="link-card">
+                        <a href="" class="addToCard">Add To Card</a>
+                        <button><i class="fa-solid fa-circle-info"></i></button>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-9.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 33.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book-10.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/1.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/2.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/3.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/4.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/5.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/6.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/7.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/8.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/9.jpg" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_img"> <img src="imgs/book5.png" alt=""></div>
+                        <h3>featured Books</h3>
+                        <p class="author">bla bla</p>
+                        <p class="price">$ 22.00</p>
+                        <div class="link-card">
+                            <a href="" class="addToCard">Add To Card</a>
+                            <button><i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="arrow right">&#8594;</a>
+
+        </div>
+    </div>
+
+    <div class="reviews for_title" id="reviews">
+        <h1 class="main-title">client's reviews</h1>
+        <div class="container flex-_c">
+            <div class="box_container">
+                <div class=" re_box">
+                    <img src="imgs/re-6.jpg" alt="">
+                    <h3>Raghu </h3>
+                    <p>I love the product because it is very easy to find. The book are in really organized manner you
+                        can
+                        easily find the
+                        book you want.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-5.jpg" alt="">
+                    <h3>Mary </h3>
+                    <p>I migrated to the online platform on Just books because I was finding it difficult to go to their
+                        libraries before
+                        closing time.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-4.jpg" alt="">
+                    <h3>Pooja </h3>
+                    <p>This book centre have large amount of a books. The engineering study material all semester books
+                        are
+                        available.then
+                        the peacefull and nice book centre.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-3.jpg" alt="">
+                    <h3>abhinav </h3>
+                    <p>Customer Service is good. Greetings to customer and making the required Books available to
+                        Customers
+                        is very good.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-2.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>Best book store almost all books are available for prepartion of exam related or other books are
+                        available on
+                        reaonable price also.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-1.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>First of all it customer service is excellent. We get all author book for Mumbai University.
+                        People
+                        should try
+                        here affordable and best price.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-6.jpg" alt="">
+                    <h3>Raghu </h3>
+                    <p>I love the product because it is very easy to find. The book are in really organized manner you
+                        can
+                        easily find the
+                        book you want.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-5.jpg" alt="">
+                    <h3>Mary </h3>
+                    <p>I migrated to the online platform on Just books because I was finding it difficult to go to their
+                        libraries before
+                        closing time.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-4.jpg" alt="">
+                    <h3>Pooja </h3>
+                    <p>This book centre have large amount of a books. The engineering study material all semester books
+                        are
+                        available.then
+                        the peacefull and nice book centre.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-3.jpg" alt="">
+                    <h3>abhinav </h3>
+                    <p>Customer Service is good. Greetings to customer and making the required Books available to
+                        Customers
+                        is very good.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-2.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>Best book store almost all books are available for prepartion of exam related or other books are
+                        available on
+                        reaonable price also.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-1.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>First of all it customer service is excellent. We get all author book for Mumbai University.
+                        People
+                        should try
+                        here affordable and best price.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-6.jpg" alt="">
+                    <h3>Raghu </h3>
+                    <p>I love the product because it is very easy to find. The book are in really organized manner you
+                        can
+                        easily find the
+                        book you want.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-5.jpg" alt="">
+                    <h3>Mary </h3>
+                    <p>I migrated to the online platform on Just books because I was finding it difficult to go to their
+                        libraries before
+                        closing time.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-4.jpg" alt="">
+                    <h3>Pooja </h3>
+                    <p>This book centre have large amount of a books. The engineering study material all semester books
+                        are
+                        available.then
+                        the peacefull and nice book centre.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-3.jpg" alt="">
+                    <h3>abhinav </h3>
+                    <p>Customer Service is good. Greetings to customer and making the required Books available to
+                        Customers
+                        is very good.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-2.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>Best book store almost all books are available for prepartion of exam related or other books are
+                        available on
+                        reaonable price also.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class=" re_box">
+                    <img src="imgs/re-1.jpg" alt="">
+                    <h3>ujjwal </h3>
+                    <p>First of all it customer service is excellent. We get all author book for Mumbai University.
+                        People
+                        should try
+                        here affordable and best price.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback for_title" id="feedback">
+        <h1 class="main-title">feedback</h1>
+        <div class="container">
+            <div class="forming ">
+                <h2 class="heading"> Give your feedback here...</h2>
+                <form class="form">
+                    <label for="email2">Email:</label>
+                    <input required="" placeholder="Enter your email address" name="email2" id="email2" type="email">
+                    <textarea placeholder="Your feedback..."></textarea>
+                    <div class="btn-group">
+                        <div class="face_group">
+                            <a><i class="fa-regular fa-face-smile-beam face_good"></i></a>
+                            <a><i class="fa-regular fa-face-smile face_mid"></i></a>
+                            <a><i class="fa-regular fa-face-frown face_bad"></i></a>
+                        </div>
+                        <div class="rating">
+                            <input class="inp" value="5" name="rate" id="star5" type="radio">
+                            <label title="text" for="star5"></label>
+                            <input class="inp" value="4" name="rate" id="star4" type="radio">
+                            <label title="text" for="star4"></label>
+                            <input class="inp" value="3" name="rate" id="star3" type="radio">
+                            <label title="text" for="star3"></label>
+                            <input class="inp" value="2" name="rate" id="star2" type="radio">
+                            <label title="text" for="star2"></label>
+                            <input class="inp" value="1" name="rate" id="star1" type="radio">
+                            <label title="text" for="star1"></label>
+                        </div>
+                    </div>
+                    <div class="btn_send flex-c">
+                        <button class="send">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="app " id="app">
+        <div class="container">
+            <div class="image_app ">
+                <img src="imgs/app.png" alt="">
+            </div>
+            <div class="content flex-c">
+                <h1>Download our app now !</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quo nostrum rem alias unde mollitia.
+                </p>
+                <div class="app_btn">
+                    <a style="margin-right:15px;"><i class="fa-brands fa-google-play"></i> google play</a>
+                    <a><i class="fa-brands fa-apple"></i> app store</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social_section">
+        <div class="container">
+            <div class="social flex-c">
+                <a data-color="#1877F2" class="faq-button">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span class="tooltip">facebook</span>
+                </a>
+                <a data-color="#1da1f2" class="faq-button">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="tooltip">twitter</span>
+                </a>
+                <a data-color="#FF0069" class="faq-button">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span class="tooltip">instagram</span>
+                </a>
+                <a data-color="#0A66C2" class="faq-button">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="tooltip">linkedin</span>
+                </a>
+                <a data-color="#2AABEE" class="faq-button">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span class="tooltip">telegram</span>
+                </a>
+                <a data-color="#25D366" class="faq-button">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span class="tooltip">whatsapp</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer flex-c " id="footer">
+        <p class="footer__copy">Copyright © 2024 mostafasayed All Rights Reserved</p>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/master.js"></script>
+</body>
+
+</html>
