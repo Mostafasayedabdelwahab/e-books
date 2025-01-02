@@ -128,8 +128,8 @@ ul {
   background-color: #f4f3ee;
 }
 @media screen and (max-width: 767px) {
-   .header {
-     position: relative;
+  .header {
+    position: relative;
   }
 }
 .header .logo {
@@ -244,7 +244,7 @@ ul {
     margin-right: 10px;
   }
   .search-form {
-       right: 10px;
+    right: 10px;
     padding: 15px 10px 0 0;
   }
 }
@@ -796,11 +796,15 @@ ul {
   top: -25px;
 }
 @media screen and (max-width: 780px) {
-    .app .container {
+  .app .container {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   }
   .social_section .container .social {
     gap: 10px;
+  }
+  .faq-button {
+    width: 40px;
+    height: 40px;
   }
 }
 .faq-button:hover {
@@ -813,7 +817,7 @@ ul {
   top: -20px;
   opacity: 0;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 5px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -840,10 +844,10 @@ ul {
 
 .footer {
   background-color: var(--main2-color);
-   text-align: center;
+  text-align: center;
 }
 .footer__copy {
-color: #fff;
+  color: #fff;
 }
 
 a:hover {
